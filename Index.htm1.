@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seno Automotive</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; color: #333; }
+    header { background: #1a1a1a; color: #fff; padding: 1rem; text-align: center; }
+    nav a { color: #fff; margin: 0 1rem; text-decoration: none; }
+    .hero { padding: 2rem; text-align: center; background: #e2e2e2; }
+    .section { padding: 2rem; }
+    .contact, .services, .gallery, .booking, .testimonials, .schedule { background: #fff; margin: 1rem auto; max-width: 800px; border-radius: 10px; padding: 1.5rem; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    footer { background: #1a1a1a; color: #fff; text-align: center; padding: 1rem; margin-top: 2rem; }
+    a.button { display: inline-block; background: #007BFF; color: white; padding: 0.75rem 1.25rem; border-radius: 5px; text-decoration: none; margin-top: 1rem; }
+    input, textarea, select { width: 100%; padding: 0.5rem; margin: 0.5rem 0; border-radius: 5px; border: 1px solid #ccc; }
+    button { background: #007BFF; color: white; border: none; padding: 0.75rem 1.25rem; border-radius: 5px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Seno Automotive</h1>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#booking">Book Detailing</a>
+      <a href="#schedule">Schedule Service</a>
+      <a href="#contact">Contact</a>
+      <a href="https://www.instagram.com/samsauto_detailing/profilecard/?igsh=MzRlODBiNWFlZA==" target="_blank">Instagram</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Your One-Stop Auto Shop in Stockton, CA</h2>
+    <p>We buy & sell cars, provide full car detailing, and offer maintenance services like quick lube, tune-ups, brakes, and tires.</p>
+  </section>
+
+  <section id="services" class="section services">
+    <h3>Our Services</h3>
+    <ul>
+      <li><strong>Buy & Sell Cars</strong> – Affordable, reliable vehicles and top dollar for your used cars</li>
+      <li><strong>Car Detailing</strong> – Complete interior and exterior detailing packages</li>
+      <li><strong>Automotive Maintenance</strong>
+        <ul>
+          <li>Quick Lube</li>
+          <li>Tune-Ups</li>
+          <li>Brake Services</li>
+          <li>Tire Replacement & Repair</li>
+        </ul>
+      </li>
+    </ul>
+    <h4>Detail Pricing</h4>
+    <p><strong>Coupes & Sedans:</strong> Starting at $150 (may vary based on condition)</p>
+    <p><strong>SUVs & Trucks:</strong> Starting at $200 (may vary based on condition)</p>
+  </section>
+
+  <section id="gallery" class="section gallery">
+    <h3>Gallery</h3>
+    <p>Check out some of our recent work!</p>
+    <img src="https://via.placeholder.com/300x200" alt="Car Detail 1" style="width:100%; max-width:300px; margin:10px;">
+    <img src="https://via.placeholder.com/300x200" alt="Car Detail 2" style="width:100%; max-width:300px; margin:10px;">
+  </section>
+
+  <section id="testimonials" class="section testimonials">
+    <h3>What Our Customers Say</h3>
+    <blockquote>“Seno Automotive brought my car back to life. Super clean work!” – J. Martinez</blockquote>
+    <blockquote>“Professional and reliable, I’ll definitely come back.” – L. Nguyen</blockquote>
+  </section>
+
+  <section id="booking" class="section booking">
+    <h3>Book a Detailing Appointment</h3>
+    <form>
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="car">Vehicle Type (Coupe, Sedan, SUV, Truck):</label>
+      <input type="text" id="car" name="car" required>
+
+      <label for="message">Any Special Requests?</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section id="schedule" class="section schedule">
+    <h3>Schedule Automotive Service</h3>
+    <form>
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" name="fullname" required>
+
+      <label for="contact">Phone or Email:</label>
+      <input type="text" id="contact" name="contact" required>
+
+      <label for="service">Service Needed:</label>
+      <select id="service" name="service" required>
+        <option value="Quick Lube">Quick Lube</option>
+        <option value="Tune-Up">Tune-Up</option>
+        <option value="Brakes">Brake Service</option>
+        <option value="Tires">Tires</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <label for="comments">Additional Info or Requests:</label>
+      <textarea id="comments" name="comments" rows="4"></textarea>
+
+      <button type="submit">Request Appointment</button>
+    </form>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h3>Contact Us</h3>
+    <p><strong>Phone:</strong> <a href="tel:5103948426">510-394-8426</a></p>
+    <p><strong>Instagram:</strong> <a href="https://www.instagram.com/samsauto_detailing/profilecard/?igsh=MzRlODBiNWFlZA==" target="_blank">@samsauto_detailing</a></p>
+    <a class="button" href="tel:5103948426">Call Now</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Seno Automotive. All rights reserved.</p>
+  </footer>
+</body>
+</html>
